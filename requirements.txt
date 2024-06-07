@@ -1,0 +1,5 @@
+
+#### `requirements.txt`
+```plaintext
+# If you use any additional libraries, list them here.
+tkinter
