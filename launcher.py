@@ -12,7 +12,7 @@ def show_version():
     Label(version_window, text="Custom Terminal Version 1.0").pack()
 
 def launch_terminal():
-    subprocess.run(['python3', 'terminal.py'])
+    subprocess.run(['xterm', '-e', 'python3', 'terminal.py'])
 
 root = Tk()
 root.title("Custom Terminal Launcher")
